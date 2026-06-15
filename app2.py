@@ -77,7 +77,9 @@ with col1:
             f"DM {credit_amount:,}", f"{duration} months"
         ]
     }
-    st.table(pd.DataFrame(summary_data))
+    df_summary = pd.DataFrame(summary_data)
+    df_summary["Value"] = df_summary["Value"].astype(str)
+    st.table(df_summary)
 
 with col2:
     st.subheader("📊 Prediction Result")
