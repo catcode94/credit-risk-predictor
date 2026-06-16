@@ -50,9 +50,9 @@ cd credit-risk-predictor
 pip install -r requirements.txt
 streamlit run app2.py
 ```
----
-## Deployment link: https://saloninayyar-credit-risk-predictor.hf.space/
----
+
+## Deployment link: 
+- https://saloninayyar-credit-risk-predictor.hf.space/
 
 ## 📦 Tech Stack
 
